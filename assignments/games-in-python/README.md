@@ -1,19 +1,35 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Assignment: Hangman Game
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## 🎯 O Que Você Vai Construir
+Pratique manipulação de strings, loops, condicionais, entrada de dados e seleção aleatória em Python ao criar uma versão funcional do jogo da Forca.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tasks
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Inicializar o Jogo
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Prepare o estado inicial do jogo selecionando uma palavra secreta aleatoriamente e criando as variáveis necessárias para acompanhar os palpites do jogador.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar a palavra secreta aleatoriamente a partir da lista fornecida.
+- Criar uma coleção para armazenar as letras já adivinhadas.
+- Definir o número máximo de tentativas incorretas permitidas.
+- Exibir a palavra oculta usando um marcador para cada letra ainda não descoberta, como `_ _ _ _ _ _`.
+
+### 🛠️ Implementar a Rodada de Adivinhação
+
+#### Descrição
+Implemente o loop principal para que o jogador informe letras, acompanhe seu progresso e receba o resultado final da partida.
+
+#### Requisitos
+O programa concluído deve:
+
+- Solicitar ao jogador um palpite de letra a cada rodada.
+- Atualizar o progresso quando o palpite estiver na palavra secreta.
+- Reduzir o número de tentativas restantes quando o palpite estiver incorreto.
+- Encerrar quando todas as letras forem descobertas ou quando as tentativas incorretas terminarem.
+- Exibir uma mensagem informando se o jogador venceu ou perdeu.
