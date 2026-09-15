@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "building-web-apps-flask",
+      "title": "Building Web Apps with Flask",
+      "description": "Create a small Flask web application with routes, HTML templates, forms, and input validation",
+      "path": "assignments/building-web-apps-flask",
+      "dueDate": "2026-09-22",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
